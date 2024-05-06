@@ -1,0 +1,60 @@
+.container {
+  margin-top: 100px;
+}
+h1 {
+  text-align: center;
+}
+
+#txt_welcome {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card_title {
+  font-size: 20px;
+}
+
+.card_button {
+  padding: 10px 20px;
+  background-color: #081a2c;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.card_img {
+  width: 300px;
+  height: 300px;
+}
+.profile-card {
+  display: flex;
+}
+
+.profile-image-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.profile-info {
+  width: 100%;
+}
+.profile-info h2,
+.profile-info p {
+  text-align: center; /* 텍스트 중앙 정렬 */
+  width: 100%; /* 요소의 너비를 .profile-info의 너비와 동일하게 설정 */
+}
+
+.profile-info h2 {
+  margin-bottom: 10px; /* 기본값보다 낮은 값을 설정 */
+}
+
+.profile-info p {
+  margin-top: 10px; /* 기본값보다 낮은 값을 설정 */
+}

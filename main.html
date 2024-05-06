@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Main</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+    <h1>신재광의 포트폴리오</h1>
+    <div id="txt_welcome">
+      안녕하세요.<br />
+      항상 성장하고 발전하는 개발자 신재광입니다.
+      <br />
+      <br />
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr">
+      <div class="card">
+        <img class="card_img" src="./img/logotype.svg" />
+        <h2 class="card_title">블로그</h2>
+        <input
+          class="card_button"
+          type="button"
+          value="바로가기"
+          onclick="location.href='https://jaekwangshin.tistory.com/'"
+        />
+      </div>
+      <div class="about me">
+        <h1>About Me</h1>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            row-gap: 30px;
+          "
+        >
+          <div class="profile-card">
+            <div class="profile-image-container">
+              <img src="./img/name.svg" alt="">
+            </div>
+            <div class="profile-info">
+              <h2>이름</h2>
+              <p>신재광</p>
+            </div>
+          </div>
+          <div class="profile-card">
+            <div class="profile-image-container">
+              <img src="./img/calender.svg" />
+            </div>
+            <div class="profile-info">
+              <h2>생년월일</h2>
+              <p>98.10.08</p>
+            </div>
+          </div>
+          <div class="profile-card">
+            <div class="profile-image-container">
+              <img src="./img/map.svg" />
+            </div>
+            <div class="profile-info">
+              <h2>주소지</h2>
+              <p>경기도 의정부시</p>
+            </div>
+          </div>
+          <div class="profile-card">
+            <div class="profile-image-container">
+              <img src="./img/mail.svg" />
+            </div>
+            <div class="profile-info">
+              <h2>이메일</h2>
+              <p>sjkwang1@gmail.com</p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
